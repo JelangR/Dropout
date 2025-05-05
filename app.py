@@ -75,7 +75,7 @@ with col3:
 with col4:
     Curricular_units_1st_sem_approved	 = st.number_input('Curricular_units_1st_sem_approved', value=6)
 
-    col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     Curricular_units_1st_sem_grade = st.number_input('Curricular_units_1st_sem_grade', value=6)
 with col2:
@@ -85,7 +85,7 @@ with col3:
 with col4:
     Curricular_units_2nd_sem_enrolled	 = st.number_input('Curricular_units_2nd_sem_enrolled', value=10)
 
-    col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     Curricular_units_2nd_sem_evaluations = st.number_input('Curricular_units_2nd_sem_evaluations', value=0)
 with col2:
@@ -95,7 +95,7 @@ with col3:
 with col4:
     Curricular_units_2nd_sem_without_evaluations	 = st.number_input('Curricular_units_2nd_sem_without_evaluations', value=6)
 
-    col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3)
 with col1:
     Unemployment_rate	 = st.number_input('Unemployment_rate', value=9.4)
 with col2:
