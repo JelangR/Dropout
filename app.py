@@ -95,7 +95,7 @@ with col3:
 with col4:
     Curricular_units_2nd_sem_without_evaluations	 = st.number_input('Curricular_units_2nd_sem_without_evaluations', value=6)
 
-    col1, col2, col3 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
 with col1:
     Unemployment_rate	 = st.number_input('Unemployment_rate', value=9.4)
 with col2:
